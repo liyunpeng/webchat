@@ -1,0 +1,2 @@
+
+find  -name "*.go" | xargs  sed -i 's/github.com\/beego\/samples\/WebIM\//webchat\//g'
