@@ -1,8 +1,8 @@
 package routers
 
 import (
-	"webchat/controllers"
 	"github.com/astaxie/beego"
+	"webchat/controllers"
 )
 
 func init() {
