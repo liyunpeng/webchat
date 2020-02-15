@@ -20,4 +20,6 @@ func init() {
 	beego.Router("/ws", &controllers.WebSocketController{})
 	beego.Router("/ws/join", &controllers.WebSocketController{}, "get:Join")
 
+	beego.Router("/info", &controllers.ApiController{})
+
 }
